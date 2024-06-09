@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  &.scrolled {
+    background: $glass-black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .navbar_logo {
+    .logo {
+      height: 40px;
+    }
+  }
+
+  .navbar_menu {
+    .nav_menu {
+      display: flex;
+      list-style: none;
+
+      .nav_list {
+        padding: 5px 15px;
+        color: $white;
+        transition: color 0.3s ease;
+
+        &:hover {
+          background: $white;
+          color: $black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .nav_menu_icon {
+    .nav_icon {
+      font-size: 24px;
+      cursor: pointer;
+      color: $white;
+    }
+  }
+}

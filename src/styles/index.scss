@@ -1,0 +1,17 @@
+// common
+
+@import "./Common/base";
+@import "./Common/colors";
+@import "./Common/variables";
+
+// pages
+
+@import "./components/about.scss";
+@import "./components/contact.scss";
+@import "./components/experience.scss";
+@import "./components/footer.scss";
+@import "./components/home.scss";
+@import "./components/marquee.scss";
+@import "./components/navbar.scss";
+@import "./components/project.scss";
+@import "./components/skills.scss";

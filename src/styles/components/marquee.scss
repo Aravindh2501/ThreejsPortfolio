@@ -1,0 +1,34 @@
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  background: $white;
+
+  .marquee_inner {
+    display: flex;
+    will-change: transform;
+  }
+
+  .marquee_part {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+
+    p {
+      color: $black;
+      font-size: 4vw;
+    }
+
+    .marquee_arrow {
+      img {
+        transform: rotate(-90deg);
+        width: 3vw;
+        margin-left: 1rem;
+        transition: transform 0.3s ease;
+      }
+    }
+
+    .arrow_rotated {
+      transform: rotate(90deg) !important;
+    }
+  }
+}
