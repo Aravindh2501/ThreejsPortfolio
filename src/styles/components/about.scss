@@ -45,38 +45,16 @@
         }
       }
 
-      .about_text_content {
-        position: relative;
+      .about_text {
 
-        .about_text1 {
-          position: absolute;
+        p {
+          font-size: 2vw;
+          padding: 0 2rem;
+          color: $lg-grey;
+          line-height: 2.3rem;
 
-          p {
-            font-size: 2vw;
-            padding: 0 2rem;
-            font-weight: 400;
-            white-space: nowrap;
-            opacity: 0;
-            color: $lg-grey;
-
-            &:nth-of-type(2) {
-              margin-top: 1rem;
-            }
-          }
-        }
-
-        .about_text2 {
-          position: absolute;
-          top: 10px;
-
-          p {
-            font-size: 2vw;
-            padding: 0 2rem;
-            font-weight: 400;
-
-            &:nth-of-type(2) {
-              margin-top: 1rem;
-            }
+          &:nth-of-type(2) {
+            margin-top: 1rem;
           }
         }
       }

@@ -24,15 +24,9 @@ const About = () => {
                 </div>
               </Grid>
               <Grid item sm={8}>
-                <div className="about_text_content">
-                  <div className="about_text1">
-                    <p>Hello! I'm Muthu , a dedicated Front-end Developer and UI/UX Designer with 1.4 years of experience. I specialize in creating sleek and interactive web interfaces using HTML, CSS, JavaScript, React.js, Redux, Axios, and GSAP. I'm skilled in UI libraries like Bootstrap, Material-UI, Chakra UI and Prime React, and I use Figma for design.</p>
-                    <p>My expertise includes API integration, data binding, and optimizing web performance for faster load times. I have a strong focus on writing clean, structured code and organizing projects effectively. Past projects include a stock market trading platform, an advertising website, and an HRMS dashboard.</p>
-                  </div>
-                  <div className="about_text2">
-                    <p>Hello! I'm Muthu , a dedicated Front-end Developer and UI/UX Designer with 1.4 years of experience. I specialize in creating sleek and interactive web interfaces using HTML, CSS, JavaScript, React.js, Redux, Axios, and GSAP. I'm skilled in UI libraries like Bootstrap, Material-UI, Chakra UI and Prime React, and I use Figma for design.</p>
-                    <p>My expertise includes API integration, data binding, and optimizing web performance for faster load times. I have a strong focus on writing clean, structured code and organizing projects effectively. Past projects include a stock market trading platform, an advertising website, and an HRMS dashboard.</p>
-                  </div>
+                <div className="about_text">
+                  <p>{AboutText}</p>
+                  <p>{AboutText1}</p>
                 </div>
               </Grid>
             </Grid>

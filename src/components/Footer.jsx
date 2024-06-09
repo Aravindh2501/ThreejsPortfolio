@@ -9,11 +9,11 @@ const Footer = () => {
         <div className="footer_media">
           <div className="footer_text">
             <SkillIconsGithubLight className="footer_icon" />
-            <p>www.github.com</p>
+            <p>https://github.com/Aravindh2501</p>
           </div>
           <div className="footer_text">
             <SkillIconsLinkedin className="footer_icon" />
-            <p>www.Linked.com</p>
+            <p>www.linkedin.com/in/aravindh2501</p>
           </div>
         </div>
       </div>
