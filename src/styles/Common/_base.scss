@@ -12,6 +12,7 @@
 body {
   background: $black-bg;
   overflow-x: hidden;
+  cursor: none;
 }
 
 img {
@@ -57,7 +58,7 @@ input {
 }
 
 button {
-  cursor: pointer;
+  // cursor: pointer;
   background: inherit;
   border: none;
 }

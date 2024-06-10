@@ -75,7 +75,7 @@ const Project = () => {
             </Grid>
           </Grid>
         </div>
-        <div className="project_content Project_card3">
+        <div className="project_content project_card3">
           <Grid container spacing={2}>
             <Grid item xs={12} sm={5}>
               <div className="project_card_left">

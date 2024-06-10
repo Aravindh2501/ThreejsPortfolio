@@ -10,6 +10,12 @@
   }
 
   .project_content {
+
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+    padding: 3rem;
+    transition: all 0.3s ease-in-out;
+
     &:hover {
       .project_arrow {
         font-size: 5rem !important;
@@ -17,14 +23,16 @@
       }
     }
 
-    &.Project_card1,
-    &.Project_card2,
-    &.Project_card3 {
-      background: $card-blue-bg; // Use the appropriate variable for each card
-      margin-bottom: 4rem;
-      border-radius: 5rem;
-      padding: 3rem;
-      transition: all 0.3s ease-in-out; // Add a transition for smooth hover effect
+    &.Project_card1 {
+      background: $card-blue-bg;
+    }
+
+    &.Project_card2 {
+      background: $card-green-bg;
+    }
+
+    &.project_card3 {
+      background: $card-red-bg;
     }
 
 

@@ -8,10 +8,12 @@ import Project from "./Project";
 import Footer from "./Footer";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import Cursor from "./Cursor";
 
 const Main = () => {
   return (
     <div className="Portfolio">
+      <Cursor />
       <Navbar />
       <Home />
       <Marquee />

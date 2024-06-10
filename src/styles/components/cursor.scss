@@ -1,0 +1,16 @@
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: white; // Change this to your desired cursor style
+    border-radius: 50%;
+    pointer-events: none; // Prevent cursor from blocking interactions
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+    z-index: 9999; // Ensure the cursor is above other elements
+
+    &.hover {
+        transform: scale(4); // Scale effect when hovering
+        mix-blend-mode: difference; // Apply mix-blend-mode: difference
+    }
+}
