@@ -9,9 +9,10 @@ import {
   Jd,
   JdAni,
 } from "../content/content";
+
 const Project = () => {
   return (
-    <div className="project">
+    <div className="project" id="Project">
       <div className="container">
         <h2>Project</h2>
         <div className="project_content Project_card1">

@@ -100,3 +100,40 @@
     }
   }
 }
+
+
+@media screen and (max-width:768px) {
+  .project {
+    h2 {
+      font-size: 12vw !important;
+    }
+
+    .project_card_right {
+      h3 {
+        font-size: 5vw !important;
+      }
+
+      h5 {
+        font-size: 5.8vw !important;
+      }
+    }
+
+    .project_content {
+      padding: 2rem !important;
+      border-radius: 3rem !important;
+    }
+
+    .project_card_tech {
+      .tech_btn {
+        img {
+          width: 1.5rem !important;
+        }
+
+        p {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+
+}

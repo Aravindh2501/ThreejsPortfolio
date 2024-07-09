@@ -10,20 +10,20 @@ import {
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="About">
       <div className="container">
         <h2>About</h2>
         <div className="about_content">
           <div className="about_top_content">
             <Grid container spacing={2}>
-              <Grid item sm={4}>
+              <Grid item xs={12} sm={4}>
                 <div className="about_card">
                   <h3>1.4+</h3>
                   <p>Years</p>
                   <p>Experience</p>
                 </div>
               </Grid>
-              <Grid item sm={8}>
+              <Grid item xs={12} sm={8}>
                 <div className="about_text">
                   <p>{AboutText}</p>
                   <p>{AboutText1}</p>

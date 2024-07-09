@@ -133,3 +133,38 @@
     }
   }
 }
+
+
+@media screen and (max-width:768px) {
+  .about {
+    background-image: none !important;
+
+    h2 {
+      font-size: 12vw !important;
+    }
+
+    .about_card {
+      padding: 60px !important;
+      margin: 0 3rem !important;
+
+      h3 {
+        font-size: 14vw !important;
+      }
+
+      p {
+        font-size: 5.9vw !important;
+      }
+    }
+
+    .about_text {
+      p {
+        font-size: 4vw !important;
+      }
+    }
+
+    .about_content_card {
+      padding: 30px !important;
+      margin: 2rem 3rem !important;
+    }
+  }
+}

@@ -3,7 +3,7 @@ import { Technologies, Tools } from "../content/content";
 
 const Skills = () => {
   return (
-    <section className="skill">
+    <section className="skill" id="Skills">
       <div className="container">
         <h2>Skills</h2>
         <div className="skill_content">

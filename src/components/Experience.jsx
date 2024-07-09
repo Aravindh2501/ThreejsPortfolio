@@ -3,7 +3,7 @@ import { HugeiconsArrowUpRight01 } from "../content/content";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" id="Experience">
       <div className="container">
         <h2>Experience</h2>
         <div className="experience_content">

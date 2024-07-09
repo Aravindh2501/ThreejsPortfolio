@@ -61,3 +61,22 @@
     }
   }
 }
+
+
+@media screen and (max-width:768px) {
+  .skill {
+    h2 {
+      font-size: 12vw !important;
+    }
+
+    .skill_btn {
+      img {
+        width: 1.5rem !important;
+      }
+
+      p {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}

@@ -4,15 +4,14 @@
     font-size: 6vw;
     padding: 3rem 0rem;
     background: #b4baec;
-    background: linear-gradient(
-      to right,
-      #b4baec 41%,
-      #ffbaab 77%,
-      #f9e3b0 90%
-    );
+    background: linear-gradient(to right,
+        #b4baec 41%,
+        #ffbaab 77%,
+        #f9e3b0 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   .contact_form {
     .contact_input {
       background: $input-bg;
@@ -26,10 +25,12 @@
       outline: none;
       margin-bottom: 1rem;
     }
+
     .contact_btn {
       display: flex;
       align-items: center;
       justify-content: center;
+
       .btn_send {
         background: $black;
         font-size: 25px;
@@ -40,29 +41,41 @@
         justify-content: center;
         cursor: pointer;
         margin: 3rem 0rem;
+
         &:hover {
           background: $lg-grey;
+
           .btn_icon_send {
             transform: rotate(90deg);
           }
         }
+
         .btn_icon_send {
           transform: rotate(45deg);
           transition: 0.3s all ease-in-out;
         }
+
         span {
           margin-left: 10px;
           background: #b4baec;
-          background: linear-gradient(
-            to right,
-            #b4baec 41%,
-            #ffbaab 77%,
-            #f9e3b0 90%
-          );
+          background: linear-gradient(to right,
+              #b4baec 41%,
+              #ffbaab 77%,
+              #f9e3b0 90%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
       }
+    }
+  }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .contact {
+    h2 {
+      font-size: 12vw !important;
     }
   }
 }

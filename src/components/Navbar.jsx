@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { NavLogo, Navlist } from "../content/content";
 
@@ -29,7 +30,9 @@ const Navbar = () => {
         <ul className="nav_menu">
           {Navlist.map((list, index) => (
             <li className="nav_list" key={index}>
-              {list}
+              <Link to={list.toLowerCase()} smooth={true} duration={500}>
+                {list}
+              </Link>
             </li>
           ))}
         </ul>
@@ -42,3 +45,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

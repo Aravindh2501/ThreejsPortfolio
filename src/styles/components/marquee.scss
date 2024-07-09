@@ -15,7 +15,7 @@
 
     p {
       color: $black;
-      font-size: 4vw;
+      font-size: 4rem;
     }
 
     .marquee_arrow {
@@ -31,4 +31,20 @@
       transform: rotate(90deg) !important;
     }
   }
+}
+
+
+@media screen and (max-width:768px) {
+  .marquee_part {
+    p {
+      font-size: 2rem !important;
+    }
+
+    .marquee_arrow {
+      img {
+        width: 5vw !important;
+      }
+    }
+  }
+
 }

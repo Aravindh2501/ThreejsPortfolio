@@ -33,3 +33,23 @@
     }
   }
 }
+
+
+@media screen and (max-width:768px) {
+  .home {
+    height: 60vh !important;
+
+    .home_content {
+      h5 {
+        font-size: 5vw !important;
+      }
+
+      h1 {
+        font-size: 5vw !important;
+      }
+
+      h2 {}
+    }
+  }
+
+}
