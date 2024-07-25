@@ -26,7 +26,7 @@ const Project = () => {
               <div className="project_card_right">
                 <div className="project_title">
                   <h3>HRMS Website</h3>
-                  <HugeiconsArrowUpRight01 className="project_arrow" />
+                  <a href="https://hrmsdashboardmodern.netlify.app/"> <HugeiconsArrowUpRight01 className="project_arrow" /></a>
                 </div>
                 <h5>Technologies</h5>
                 <div className="project_card_tech">
@@ -56,7 +56,7 @@ const Project = () => {
               <div className="project_card_right">
                 <div className="project_title">
                   <h3>Grocery Website</h3>
-                  <HugeiconsArrowUpRight01 className="project_arrow" />
+                  <a href="https://happiegroceryshop.netlify.app/"> <HugeiconsArrowUpRight01 className="project_arrow" /> </a>
                 </div>
 
                 <h5>Technologies</h5>
@@ -87,7 +87,7 @@ const Project = () => {
               <div className="project_card_right">
                 <div className="project_title">
                   <h3>JD Website</h3>
-                  <HugeiconsArrowUpRight01 className="project_arrow" />
+                  <a href="https://aravindh2501.github.io/JD-Animation/"> <HugeiconsArrowUpRight01 className="project_arrow" /> </a>
                 </div>
 
                 <h5>Technologies</h5>
